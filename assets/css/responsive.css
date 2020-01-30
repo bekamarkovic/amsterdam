@@ -1,0 +1,179 @@
+@media screen and (max-width:992px) {
+    .about1 h2 {
+        margin-top: 100px;
+        font-size: 30px;
+        text-transform: uppercase
+    }
+    .about1 p {
+        margin-top: 40px;
+        font-size: 15px
+    }
+    .about1 {
+        margin-left: 50px
+    }
+    #header {
+        background-color: #fff
+    }
+    #meni {
+        float: left
+    }
+    #meni ul li {
+        margin-right: 5%;
+        margin-left: 0
+    }
+    #meni ul li a {
+        color: #000
+    }
+    .formaAutor {
+        width: 30%;
+        margin-left: 10%
+    }
+    .formaAutor input, select {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:768px) {
+    #slajder h1 {
+        font-size: 50px
+    }
+    .about1 {
+        margin-left: 0
+    }
+    #menja p {
+        font-size: 18px
+    }
+    #galerija, #ispod, .mesto1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    #galerija a {
+        margin-bottom: 30px;
+        width: 50%
+    }
+    #galerija a img {
+        width: 100%
+    }
+    .slikaMesta {
+        width: 100%;
+        margin-bottom: 50px
+    }
+    .tekst {
+        width: 80%
+    }
+    .tekst h3 {
+        font-size: 25px
+    }
+    .tekst {
+        text-align: justify;
+        margin-left: 0
+    }
+    .parni .tekst {
+        margin-left: 0;
+        margin-right: 0
+    }
+    .formaAutor {
+        width: 80%;
+        margin-bottom: 40px;
+        margin-left: 0
+    }
+    .formaAutor input, select {
+        width: 100%
+    }
+    #naslovGalerija, #places {
+        font-size: 30px
+    }
+    #meni {
+        display: none
+    }
+    #meni2 {
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        width: 100%;
+        height: 100%
+    }
+    #lista {
+        width: 23%;
+        height: 100%;
+        margin-left: 10%;
+        padding-bottom: 5%
+    }
+    #lista ul {
+        text-decoration: none;
+        width: 100%;
+        text-align: center
+    }
+    #lista ul li {
+        float: left;
+        margin-bottom: 30px
+    }
+    #lista ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #000
+    }
+    .fa-bars {
+        color: #000
+    }
+    #about {
+        flex-direction: column;
+        align-items: center
+    }
+    .about1 {
+        width: 80%
+    }
+    .parni .tekst {
+        order: 2
+    }
+    .tekst p {
+        text-align: left
+    }
+    .parni .slikaMesta {
+        order: 1
+    }
+    .futer1 ul {
+        margin-left: 47%
+    }
+    #mesta {
+        margin-top: 30px;
+    }
+    .mesto1:first-child{
+        margin-top: 55px;
+    }
+    #naslovGalerija, #places, #ispod {
+        margin-top: 170px!important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .mesto1:first-child{
+        margin-top: 25px;
+    }
+    h2{
+        margin-top: 60px!important;
+    }
+    #naslovGalerija, #places, #ispod {
+        margin-top: 130px!important;
+    }
+    #menja p {
+        font-size: 15px
+    }
+    #slajder h1 {
+        font-size: 35px
+    }
+    #slajder {
+        min-height: 500px
+    }
+    .futer1 p {
+        display: none;
+    }
+    .futer1 ul li a {
+        font-size: 20px;
+    }
+    .futer1 ul li a {
+        font-size: 15px;
+    }
+}
