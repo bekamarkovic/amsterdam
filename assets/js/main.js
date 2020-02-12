@@ -233,7 +233,7 @@ function slideShow(){
 
 //------------------------- IKONICE FUTER -----------------------------
 var nizIkonice = ["fa-facebook", "fa-instagram", "fa-twitter", "fa-sitemap"];
-var nizHref = ["https://www.facebook.com/beka.markovic99", "https://www.instagram.com/bekamarkoviic/?hl=sr", "https://twitter.com/bekaa_markovic", "sitemap.xml"];
+var nizHref = ["https://www.facebook.com/beka.markovic99", "https://www.instagram.com/bekamarkoviic", "https://twitter.com/bekaa_markovic", "sitemap.xml"];
 var futer = document.querySelectorAll(".futer1")[1];
 
 var ispis1 = "<ul>"
